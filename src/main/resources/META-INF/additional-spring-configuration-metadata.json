@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "springit",
+      "type": "java.lang.String",
+      "description": "Description for springit."
+    },
+    {
+      "name": "springit.",
+      "type": "java.lang.String",
+      "description": "Description for springit.."
+    }
+  ] }

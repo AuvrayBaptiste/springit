@@ -1,4 +1,4 @@
-package com.gfi.springit.Config;
+package com.gfi.springit.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
@@ -6,9 +6,9 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 public class SpringitProperties {
 
     /**
-     * This is our welcome Message.
+     * This is our welcome message !
      */
-    private String welcomeMsg =" Hello, World!";
+    private String welcomeMsg = "Hello, World !";
 
     public String getWelcomeMsg() {
         return welcomeMsg;

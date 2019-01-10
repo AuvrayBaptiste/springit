@@ -1,5 +1,4 @@
 package com.gfi.springit.domain;
-
 import org.springframework.data.annotation.CreatedBy;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedBy;
@@ -26,35 +25,19 @@ public abstract class Auditable {
     @LastModifiedDate
     private LocalDateTime lastModifiedDate;
 
-    public String getCreatedBy() {
-        return createdBy;
-    }
+    public String getCreatedBy() { return createdBy; }
 
-    public void setCreatedBy(String createdBy) {
-        this.createdBy = createdBy;
-    }
+    public void setCreatedBy(String createdBy) { this.createdBy = createdBy; }
 
-    public LocalDateTime getCreationDate() {
-        return creationDate;
-    }
+    public LocalDateTime getCreationDate() { return creationDate; }
 
-    public void setCreationDate(LocalDateTime creationDate) {
-        this.creationDate = creationDate;
-    }
+    public void setCreationDate(LocalDateTime creationDate) { this.creationDate = creationDate; }
 
-    public String getLastModifiedBy() {
-        return lastModifiedBy;
-    }
+    public String getLastModifiedBy() { return lastModifiedBy; }
 
-    public void setLastModifiedBy(String lastModifiedBy) {
-        this.lastModifiedBy = lastModifiedBy;
-    }
+    public void setLastModifiedBy(String lastModifiedBy) { this.lastModifiedBy = lastModifiedBy; }
 
-    public LocalDateTime getLastModifiedDate() {
-        return lastModifiedDate;
-    }
+    public LocalDateTime getLastModifiedDate() { return lastModifiedDate; }
 
-    public void setLastModifiedDate(LocalDateTime lastModifiedDate) {
-        this.lastModifiedDate = lastModifiedDate;
-    }
+    public void setLastModifiedDate(LocalDateTime lastModifiedDate) { this.lastModifiedDate = lastModifiedDate; }
 }
